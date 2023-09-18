@@ -1,0 +1,123 @@
+
+.container{
+width: 607px;
+ height: 829px;
+ margin: auto;
+ margin-top: 75PX;
+ border-radius: 10px;   
+ background-image: linear-gradient(180deg , #a8a1ce,#1e1e1f 100%);
+
+}
+
+.clastop{
+display: flex;
+justify-content: center;
+gap: 14px;
+padding-top: 60px;
+
+}
+
+.clastop input{
+display: flex;
+width: 362px;
+height: 78px;
+border: none;
+outline: none;
+background-color: #ebffce;
+border-radius: 40px ;
+
+padding-left: 40px;
+color: #626262;
+font-size: 20px;
+ font-weight: 400  ;
+}
+
+
+.searchicon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebffce;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.weatherimage{
+margin-top: 29px;
+display: flex;
+justify-content: center;
+
+} 
+
+.weathertempe{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 120px;
+font-weight: 400;
+
+}
+
+
+
+
+.weatherlocation{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    
+    }
+    
+    .alldatacontainer{
+
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    }
+
+    .element{
+margin: auto;
+display: flex;
+align-items: flex-start;
+gap: 12px;
+    }
+
+    .data{
+font-size: 34px;
+font-weight: 400;
+    }
+ 
+    .text{
+font-size: 20px;
+font-weight: 400;
+    } 
+    
+    .icons{
+margin-top: 10px;
+    }
+    .wind{
+position: relative;
+top: 36px;
+left: -50px;
+font-size: 17px;
+    }
+
+        .windrate{
+        position: relative;
+        left: 80px;
+        font-size: 28px;
+        top: -18px;
+            }
+            .windicon{
+                position: relative;
+                left: 80px;
+                top: -12px;  
+            }
